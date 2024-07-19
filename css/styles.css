@@ -60,7 +60,7 @@ body {
 /* Header */
 
 .header-container {
-  padding: 40x px;
+  padding: 40px;
   display: flex;
   justify-content: space-between;
   border: 0px, 0px, 1px, 0px;
@@ -166,18 +166,33 @@ padding: 40px;
 }
  
 .hero-container-text {
- align-self: center;  
- 
- margin-top: 188px;
- margin-bottom: 292px;
- margin-left: 472px;
- margin-right: 472px;
+  align-self: center;   
+  width: 496px;
+height: 120px;
+top: 260px;
+left: 472px;
+gap: 0px;
+opacity: 0px;
+margin-top: 188px;
+margin-bottom: 48px;
 }
 
 
 .hero-container-button {
   align-self: center;
 }
+.primary-button {
+  width: Hug (169px)px;
+  height: Hug (56px)px;
+  top: 428px;
+  left: 636px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  margin-bottom: 188px;
+}
+ 
 
 .hero-title {
   font-family: "Roboto";
@@ -215,6 +230,29 @@ padding: 40px;
   letter-spacing: 0.04em;
   color: var(--white-text);
   word-wrap: break-word;
+}
+
+/* Featueres text de terminat */
+.features-list {
+  display: flex;
+ flex-direction: row;
+justify-content: space-evenly;
+column-gap: 24px;
+align-content: flex-start;
+
+}
+
+ 
+.features-flex-subtitle{
+  display: flex;
+  padding-bottom: 8px;
+}
+
+
+.features-flex-paragraph{
+  display: flex;
+  
+    
 }
 
 .features-subtitle {
