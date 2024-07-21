@@ -77,7 +77,7 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
-  padding: 24px 0;
+ 
 }
 
 .header-list-flex {
@@ -106,10 +106,7 @@ body {
   color: var(--primary-color);
 }
 
-.header-address-flex {
-  display: flex;
-  padding: 24px 0;
-}
+
 
 .header-address-list-flex {
   display: flex;
