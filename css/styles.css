@@ -232,12 +232,11 @@ margin-bottom: 48px;
   word-wrap: break-word;
 }
 
-/* Featueres text de terminat */
+
 .features-list {
   display: flex;
  flex-direction: row;
 justify-content: space-evenly;
-column-gap: 24px;
 align-content: flex-start;
 
 }
@@ -246,13 +245,14 @@ align-content: flex-start;
 .features-flex-subtitle{
   display: flex;
   padding-bottom: 8px;
+  
+
 }
 
 
 .features-flex-paragraph{
   display: flex;
-  
-    
+  text-align: start;
 }
 
 .features-subtitle {
@@ -272,9 +272,61 @@ align-content: flex-start;
   letter-spacing: 0.02em;
   color: var(--primary-slate);
 }
+
+
+
 .our-team-section {
   background-color: #f4f4fd;
+  display: flex;
+  
 }
+
+.our-team-container{
+  display: flex;
+  flex-direction: column;
+ 
+ }
+ 
+
+.our-team-title-flex{ 
+  display: flex;
+align-self: center;
+padding: 72px;
+
+}
+
+
+.our-team-card-content-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.our-team-list-flex{
+  display: flex;
+align-self:center;
+gap: 24px;
+
+}
+
+.our-team-card-content-dexcription{
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+
+  }
+
+
+
+.our-team-name-flex {
+  display: flex;
+align-self: center;
+}
+ 
+.our-team-paragraph-flex {
+  display: flex;
+align-self: center;
+}
+
 
 .our-team-title {
   font-family: Roboto;
@@ -289,6 +341,15 @@ align-content: flex-start;
 
 .our-team-card-content {
   background-color: #ffffff;
+  width: Hug (264px)px;
+  height: Hug (380px)px;
+  top: 1248px;
+  left: 1020px;
+  padding: 0px 0px 32px 0px;
+  gap: 32px;
+  border-radius: 0px 0px 4px 4px;
+  opacity: 0px;
+
 }
 
 .our-team-name {
@@ -298,6 +359,7 @@ align-content: flex-start;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--primary-color);
+
 }
 
 .our-team-paragraph {
@@ -308,6 +370,82 @@ align-content: flex-start;
   letter-spacing: 0.02em;
   color: var(--primary-slate);
 }
+
+
+
+.our-portofolio-section {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.our-portofolio-container-title {
+  display: flex;
+  align-self: center;
+  padding-bottom: 72px;
+}
+
+.our-portofolio-container-list-flex{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 48px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+
+
+}
+
+ .our-portofolio-list-flex1 {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+ 
+
+  
+ }
+ .our-portofolio-list-flex2{
+  display: flex;
+  flex-direction: row;
+gap: 24px;
+
+ }
+
+ 
+
+ .our-portofolio-card-content {
+display: flex;
+flex-direction: column;
+width: Fixed (360px)px;
+height: Fixed (120px)px;
+top: 300px;
+padding: 0px 0px 32px 0px;
+gap: 8px;
+border: 0px 1px 1px 1px;
+opacity: 0px;
+border: 1px solid #E7E9FC
+ }
+ 
+ 
+
+ .our-portofolio-subtitle-flex {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding-top: 32px;
+  padding-left: 16px;
+ }
+
+ .our-portofolio-paragraph-flex {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  padding-top: 8px;
+  padding-left: 16px;
+  
+ }
+ 
 
 .our-portofolio-title {
   font-family: "Roboto";
@@ -338,7 +476,25 @@ align-content: flex-start;
   color: var(--primary-slate);
 }
 
+.footer-container{
+display: flex;
+flex-direction: column;
+margin-left: 156px;
+}
+
+
+.footer-logo-flex{
+display: flex;
+}
+
+
+.footer-paragraph-flex{
+display: flex;
+padding-top: 16px;
+}
+
 .footer-section {
+  display: flex;
   background-color: var(--primary-color);
 }
 
@@ -353,3 +509,7 @@ align-content: flex-start;
 .logo-section {
   color: #f4f4fd;
 }
+
+
+
+
