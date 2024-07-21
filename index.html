@@ -40,21 +40,24 @@
             Web
             <span style="color: #2e2f42">Studio</span>
           </a>
-          <ul class="header-list">
-            <li class="header-item">
+          <ul class="header-list header-list-flex">
+            <li class="header-item header-item-flex">
               <a href="./index.html" class="header-link">Studio</a>
             </li>
-            <li class="header-item">
+            <li class="header-item header-item-flex">
               <a href="" class="header-link">Portfolio</a>
             </li>
-            <li class="header-item">
+            <li class="header-item header-item-flex">
               <a href="" class="header-link">Contacts</a>
             </li>
           </ul>
         </nav>
 
-        <address class="header-address" style="font-style: normal">
-          <ul class="header-address-list">
+        <address
+          class="header-address header-address-flex"
+          style="font-style: normal"
+        >
+          <ul class="header-address-list header-address-list-flex">
             <li class="header-address-item">
               <a href="mailto:info@devstudio.com" class="header-address-link"
                 >info@devstudio.com
@@ -72,11 +75,10 @@
     <!-- Main Container -->
     <main>
       <section class="hero-section section">
-        <div class="hero-container-text">
+        <div class="hero-container-text container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-        </div>
-        <div class="hero-container-button">
-          <button type="button" class="primary-button">
+
+          <button type="button" class="primary-button primary-button-flex">
             <span class="primary-button-text">Order Service</span>
           </button>
         </div>
@@ -84,38 +86,32 @@
 
       <section class="features-section section">
         <div class="features-container container">
-          <h2 class="features-title"></h2>
+          <h2 class="features-title">Lorem ipsum</h2>
           <ul class="features-list">
             <li class="features-item-section">
-              <h3 class="features-subtitle features-flex-subtitle">Strategy</h3>
-              <p class="features-paragraph features-flex-paragraph">
+              <h3 class="features-subtitle">Strategy</h3>
+              <p class="features-paragraph">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
             <li class="features-item-section">
-              <h3 class="features-subtitle features-flex-subtitle">
-                Punctuality
-              </h3>
-              <p class="features-paragraph features-flex--paragraph">
+              <h3 class="features-subtitle">Punctuality</h3>
+              <p class="features-paragraph">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
             <li class="features-item-section">
-              <h3 class="features-subtitle features-flex-subtitle">
-                Diligence
-              </h3>
-              <p class="features-paragraph features-flex-paragraph">
+              <h3 class="features-subtitle">Diligence</h3>
+              <p class="features-paragraph">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
             <li class="features-item-section">
-              <h3 class="features-subtitle features-flex-subtitle">
-                Technologies
-              </h3>
-              <p class="features-paragraph features-flex-paragraph">
+              <h3 class="features-subtitle">Technologies</h3>
+              <p class="features-paragraph">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -123,6 +119,7 @@
           </ul>
         </div>
       </section>
+
       <section class="our-team-section section">
         <div class="our-team-container container">
           <h2 class="our-team-title our-team-title-flex">Our Team</h2>
@@ -180,25 +177,30 @@
       </section>
 
       <section class="our-portofolio-section section">
-        <div class="our-portofolio-container-title">
+        <div class="our-portofolio-container">
           <h2 class="our-portofolio-title our-portofolio-title-flex">
             Our Portfolio
           </h2>
-        </div>
-        <div class="our-portofolio-container-list-flex">
-          <ul class="our-portofolio-list our-portofolio-list-flex1">
+
+          <ul class="our-portofolio-list our-portofolio-list-flex">
             <li class="our-portofolio-item our-portofolio-card-content">
               <img
                 src="./images/Banking-App.jpg"
                 alt="Banking App"
                 width="360"
               />
-              <h3 class="our-portofolio-subtitle our-portofolio-subtitle-flex">
-                Banking App
-              </h3>
-              <p class="our-portofolio-paragraph our-portofolio-paragraph-flex">
-                App
-              </p>
+              <div class="our-portofolio-card-description">
+                <h3
+                  class="our-portofolio-subtitle our-portofolio-subtitle-flex"
+                >
+                  Banking App
+                </h3>
+                <p
+                  class="our-portofolio-paragraph our-portofolio-paragraph-flex"
+                >
+                  App
+                </p>
+              </div>
             </li>
             <li class="our-portofolio-item our-portofolio-card-content">
               <img
@@ -206,40 +208,57 @@
                 alt="Cashless Payment"
                 width="360"
               />
-              <h3 class="our-portofolio-subtitle our-portofolio-subtitle-flex">
-                Cashless Payment
-              </h3>
-              <p class="our-portofolio-paragraph our-portofolio-paragraph-flex">
-                Marketing
-              </p>
+              <div class="our-portofolio-card-description">
+                <h3
+                  class="our-portofolio-subtitle our-portofolio-subtitle-flex"
+                >
+                  Cashless Payment
+                </h3>
+                <p
+                  class="our-portofolio-paragraph our-portofolio-paragraph-flex"
+                >
+                  Marketing
+                </p>
+              </div>
             </li>
+
             <li class="our-portofolio-item our-portofolio-card-content">
               <img
                 src="./images/Meditation-app.jpg"
                 alt="Meditation App"
                 width="360"
               />
-              <h3 class="our-portofolio-subtitle our-portofolio-subtitle-flex">
-                Meditation App
-              </h3>
-              <p class="our-portofolio-paragraph our-portofolio-paragraph-flex">
-                App
-              </p>
+              <div class="our-portofolio-card-description">
+                <h3
+                  class="our-portofolio-subtitle our-portofolio-subtitle-flex"
+                >
+                  Meditation App
+                </h3>
+                <p
+                  class="our-portofolio-paragraph our-portofolio-paragraph-flex"
+                >
+                  App
+                </p>
+              </div>
             </li>
-          </ul>
-          <ul class="our-portofolio-list our-portofolio-list-flex2">
             <li class="our-portofolio-item our-portofolio-card-content">
               <img
                 src="./images/taxi-service.jpg"
                 alt="axi Service"
                 width="360"
               />
-              <h3 class="our-portofolio-subtitle our-portofolio-subtitle-flex">
-                Taxi Service
-              </h3>
-              <p class="our-portofolio-paragraph our-portofolio-paragraph-flex">
-                Marketing
-              </p>
+              <div class="our-portofolio-card-description">
+                <h3
+                  class="our-portofolio-subtitle our-portofolio-subtitle-flex"
+                >
+                  Taxi Service
+                </h3>
+                <p
+                  class="our-portofolio-paragraph our-portofolio-paragraph-flex"
+                >
+                  Marketing
+                </p>
+              </div>
             </li>
             <li class="our-portofolio-item our-portofolio-card-content">
               <img
@@ -247,12 +266,18 @@
                 alt="Screen Illustrations"
                 width="360"
               />
-              <h3 class="our-portofolio-subtitle our-portofolio-subtitle-flex">
-                Screen Illustrations
-              </h3>
-              <p class="our-portofolio-paragraph our-portofolio-paragraph-flex">
-                Design
-              </p>
+              <div class="our-portofolio-card-description">
+                <h3
+                  class="our-portofolio-subtitle our-portofolio-subtitle-flex"
+                >
+                  Screen Illustrations
+                </h3>
+                <p
+                  class="our-portofolio-paragraph our-portofolio-paragraph-flex"
+                >
+                  Design
+                </p>
+              </div>
             </li>
             <li class="our-portofolio-item our-portofolio-card-content">
               <img
@@ -260,19 +285,25 @@
                 alt="Online Courses"
                 width="360"
               />
-              <h3 class="our-portofolio-subtitle our-portofolio-subtitle-flex">
-                Online Courses
-              </h3>
-              <p class="our-portofolio-paragraph our-portofolio-paragraph-flex">
-                Marketing
-              </p>
+              <div class="our-portofolio-card-description">
+                <h3
+                  class="our-portofolio-subtitle our-portofolio-subtitle-flex"
+                >
+                  Online Courses
+                </h3>
+                <p
+                  class="our-portofolio-paragraph our-portofolio-paragraph-flex"
+                >
+                  Marketing
+                </p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <!-- Footer Container -->
-    <footer class="footer-section section">
+    <footer class="footer-section section ">
       <div class="footer-container container">
         <a href="./index.html" class="logo footer-logo-flex"
           >Web
